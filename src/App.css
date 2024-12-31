@@ -1,0 +1,39 @@
+/* src/App.css */
+body{
+  scroll-behavior: smooth;
+}
+.dark {
+    /* Apply dark mode styles here */
+    background-color: #0b1727;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  button {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  @media (max-width:500px) {
+    .marginkiclass{
+      margin-top: 2rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .mainpopup{
+      width:100vw;
+    }
+    .popup {
+      width: 300px;
+      
+    }
+    .mypopupcontent{
+        margin-left:-1rem !important;
+    }
+
+  }
+  
